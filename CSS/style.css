@@ -51,7 +51,7 @@ img {
    display:block;
    justify-content: center;
    background-color: rgb(238, 234, 234);
-   margin-left: 160px;
+   margin-left: 0px;
    margin-top: 50px;
 }
 .cont{
@@ -64,12 +64,51 @@ img {
     width: 50px; /* Adjust the width to your desired size */
     height: 50px; /* Adjust the height to your desired size */
     overflow: hidden;
-    border-radius: 50%; /* This will make the avatar round */
+    border-radius: 50%; /* This will make the avatar round
   }
   
   .avatar img {
     width: 100%; /* Make the image fill the avatar container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove extra spacing below image */
+  } */
+  /* .post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 10px;
+  } */
+  
+  .post-header {
+    display: flex;
+    align-items: center;
   }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .user-name {
+    margin: 0;
+    ;
+  }
+  
+  .post-time {
+    color: gray;
+    margin: 0;
+  }
+  
+  .post-content {
+    margin-top: 10px;
+  }
+  
+  .post-actions button {
+    margin-right: 10px;
+  }
+.share-button{
+    margin-left: 200px;
+}
   
